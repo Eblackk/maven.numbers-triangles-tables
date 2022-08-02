@@ -3,13 +3,19 @@ package com.github.curriculeon;
 
 public class NumberUtilities {
     public static String getEvenNumbers(int start, int stop) {
-
-        return null;
+        
     }
 
 
     public static String getOddNumbers(int start, int stop) {
-        return null;
+        String result = "";
+        int loopnumber = start;
+        while (loopnumber < stop) {
+            result += loopnumber;
+            loopnumber += 2;
+        }
+        return result;
+
     }
 
 
