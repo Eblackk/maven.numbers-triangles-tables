@@ -188,9 +188,8 @@ public class NumberUtilitiesTest {
     public void testGetEvenNumbers() {
         // : Given
         String expected = "681012141618";
-        int start = 5;
+        int start = 6;
         int stop = 20;
-        int step = 5;
 
         // : When
         String actual = NumberUtilities.getEvenNumbers(start, stop);
