@@ -4,13 +4,14 @@ public class TableUtilities {
     public static String getSmallMultiplicationTable() {
         String result = "";
         int columnNumber = 1;
-        while (columnNumber < 6) {
-            int rowNumber = 1;
+        int stopNumber = 6;
+        while (columnNumber < stopNumber) {
+            int rowNumber = columnNumber;
 
-            while (rowNumber < 6) {
+            while (rowNumber < columnNumber * stopNumber) {
                 result += rowNumber;
                 result += " | ";
-                rowNumber += 1;
+                rowNumber += columnNumber;
 
             }
             result += "\n";
