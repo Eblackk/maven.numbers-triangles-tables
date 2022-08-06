@@ -44,7 +44,7 @@ public class TableUtilities {
     public static String getMultiplicationTable(int tableSize) {
         String result = " ";
         int columnNumber = 1;
-        int stopNumber = 20;
+        int stopNumber = tableSize;
         while (columnNumber < stopNumber) {
             int rowNumber = columnNumber;
 
