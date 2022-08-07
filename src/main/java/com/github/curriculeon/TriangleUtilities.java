@@ -7,7 +7,13 @@ public class TriangleUtilities {
     }
 
     public static String getRow(int numberOfStars) {
-        return null;
+        String result = "";
+        int loopnumber = 0;
+        while (loopnumber < numberOfStars) {
+            result += "*";
+            loopnumber = loopnumber + 1;
+        }
+        return result;
     }
 
     public static String getSmallTriangle() {
