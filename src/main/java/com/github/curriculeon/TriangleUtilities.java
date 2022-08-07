@@ -27,10 +27,10 @@ public class TriangleUtilities {
     }
 
     public static String getSmallTriangle() {
-        return null;
+        return getTriangle(5);
     }
 
     public static String getLargeTriangle() {
-        return null;
+        return getTriangle(10);
     }
 }
