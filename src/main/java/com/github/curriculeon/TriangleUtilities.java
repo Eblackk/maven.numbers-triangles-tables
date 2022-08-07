@@ -27,7 +27,7 @@ public class TriangleUtilities {
     }
 
     public static String getSmallTriangle() {
-        return getTriangle(5);
+        return getTriangle(5) ;
     }
 
     public static String getLargeTriangle() {
